@@ -1,5 +1,6 @@
 inherit core-image
 inherit image-buildinfo
+inherit unit-image-users
 
 IMAGE_INSTALL:append = " packagegroup-unit"
 IMAGE_INSTALL:append = " packagegroup-unit-devtools"
