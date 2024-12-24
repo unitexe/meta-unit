@@ -8,3 +8,6 @@ inherit packagegroup
 
 # Networking
 RDEPENDS:${PN}:append = " curl"
+
+# Utilities
+RDEPENDS:${PN}:append = " tree"
