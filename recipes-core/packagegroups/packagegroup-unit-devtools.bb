@@ -6,6 +6,9 @@ LICENSE = "MIT"
 
 inherit packagegroup
 
+# Systemd debugging
+RDEPENDS:${PN}:append = " systemd-bootchart"
+
 # Networking
 RDEPENDS:${PN}:append = " curl"
 
