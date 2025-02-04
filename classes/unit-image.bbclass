@@ -5,6 +5,3 @@ inherit unit-image-users
 IMAGE_INSTALL:append = " packagegroup-unit"
 IMAGE_INSTALL:append = " packagegroup-unit-devtools"
 IMAGE_INSTALL:append = " ${@bb.utils.contains('DISTRO_FEATURES', 'virtualization', 'packagegroup-unit-podman', '', d)}"
-
-# Need extra space for working with containers, let's do 1GB.
-IMAGE_ROOTFS_EXTRA_SPACE = "1073741824"
