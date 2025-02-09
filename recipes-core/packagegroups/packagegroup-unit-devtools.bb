@@ -14,6 +14,8 @@ RDEPENDS:${PN}:append = " systemd-bootchart"
 
 # Networking
 RDEPENDS:${PN}:append = " curl"
+RDEPENDS:${PN}:append = " openssh"
+RDEPENDS:${PN}:append = " openssh-authorized-keys"
 
 # Utilities
 RDEPENDS:${PN}:append = " tree"
