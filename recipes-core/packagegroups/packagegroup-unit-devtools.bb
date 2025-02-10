@@ -32,3 +32,6 @@ RDEPENDS:${PN}:append = " tree"
 RDEPENDS:${PN}:append = " libgpiod"
 RDEPENDS:${PN}:append = " libgpiod-tools"
 RDEPENDS:${PN}:append = " python3-gpiod"
+
+# Performance testing
+RDEPENDS:${PN}:append = " stress-ng"
