@@ -19,3 +19,6 @@ RDEPENDS:${PN}:append = " openssh-authorized-keys"
 
 # Utilities
 RDEPENDS:${PN}:append = " tree"
+
+# GPIO
+RDEPENDS:${PN}:append = " libgpiod"
