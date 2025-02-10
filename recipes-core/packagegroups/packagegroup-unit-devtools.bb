@@ -29,3 +29,4 @@ RDEPENDS:${PN}:append = " tree"
 
 # GPIO
 RDEPENDS:${PN}:append = " libgpiod"
+RDEPENDS:${PN}:append = " libgpiod-tools"
