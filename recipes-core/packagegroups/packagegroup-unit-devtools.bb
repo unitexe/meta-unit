@@ -36,5 +36,8 @@ RDEPENDS:${PN}:append = " python3-gpiod"
 # SPI
 RDEPENDS:${PN}:append = " python3-spidev"
 
+# UART
+RDEPENDS:${PN}:append = " minicom"
+
 # Performance testing
 RDEPENDS:${PN}:append = " stress-ng"
