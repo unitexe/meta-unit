@@ -24,6 +24,7 @@ RDEPENDS:${PN}:append = " curl"
 RDEPENDS:${PN}:append = " openssh"
 RDEPENDS:${PN}:append = " openssh-authorized-keys"
 RDEPENDS:${PN}:append = " python3-speedtest-cli"
+RDEPENDS:${PN}:append = " wireguard-tools"
 
 # Utilities
 RDEPENDS:${PN}:append = " tree"
