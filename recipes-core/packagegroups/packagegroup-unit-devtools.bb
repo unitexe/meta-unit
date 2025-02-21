@@ -42,3 +42,8 @@ RDEPENDS:${PN}:append = " minicom"
 
 # Performance testing
 RDEPENDS:${PN}:append = " stress-ng"
+
+# Python
+RDEPENDS:${PN}:append = " python3-grpcio"
+RDEPENDS:${PN}:append = " python3-grpcio-tools"
+RDEPENDS:${PN}:append = " python3-grpcio-reflection"
