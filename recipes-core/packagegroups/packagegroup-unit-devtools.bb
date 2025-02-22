@@ -51,3 +51,6 @@ RDEPENDS:${PN}:append = " python3-grpcio-reflection"
 # I2C
 RDEPENDS:${PN}:append = " i2c-tools"
 RDEPENDS:${PN}:append = " python3-smbus"
+
+# Misc.
+RDEPENDS:${PN}:append = " python3-tomllib"
