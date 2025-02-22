@@ -47,3 +47,7 @@ RDEPENDS:${PN}:append = " stress-ng"
 RDEPENDS:${PN}:append = " python3-grpcio"
 RDEPENDS:${PN}:append = " python3-grpcio-tools"
 RDEPENDS:${PN}:append = " python3-grpcio-reflection"
+
+# I2C
+RDEPENDS:${PN}:append = " i2c-tools"
+RDEPENDS:${PN}:append = " python3-smbus"
