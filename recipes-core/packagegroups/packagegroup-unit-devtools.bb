@@ -43,10 +43,14 @@ RDEPENDS:${PN}:append = " minicom"
 # Performance testing
 RDEPENDS:${PN}:append = " stress-ng"
 
-# Python
+# gRPC
 RDEPENDS:${PN}:append = " python3-grpcio"
 RDEPENDS:${PN}:append = " python3-grpcio-tools"
 RDEPENDS:${PN}:append = " python3-grpcio-reflection"
+RDEPENDS:${PN}:append = " python3-grpcio-health-checking"
+
+# SCPI
+RDEPENDS:${PN}:append = " python3-usbtmc"
 
 # I2C
 RDEPENDS:${PN}:append = " i2c-tools"
