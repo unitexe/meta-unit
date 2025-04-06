@@ -9,3 +9,4 @@ inherit packagegroup
 # eBPF
 RDEPENDS:${PN}:append = " bcc"
 RDEPENDS:${PN}:append = " bpftrace"
+RDEPENDS:${PN}:append = " pahole"
