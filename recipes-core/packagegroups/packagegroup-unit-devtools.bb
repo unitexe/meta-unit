@@ -40,6 +40,10 @@ RDEPENDS:${PN}:append = " python3-spidev"
 # UART
 RDEPENDS:${PN}:append = " minicom"
 
+# Performance analysis
+RDEPENDS:${PN}:append = " procps"
+RDEPENDS:${PN}:append = " sysstat"
+
 # Performance testing
 RDEPENDS:${PN}:append = " stress-ng"
 
