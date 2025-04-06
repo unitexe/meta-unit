@@ -5,3 +5,6 @@ SRC_URI:append = " file://networking.cfg"
 
 # Needed for systemd-bootchart. Ideally only included in development images.
 SRC_URI:append = " file://stats.cfg"
+
+# eBPF.
+SRC_URI:append = " file://bcc.cfg"
