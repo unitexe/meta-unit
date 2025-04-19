@@ -8,3 +8,5 @@ IMAGE_INSTALL:append = " ${@bb.utils.contains('DISTRO_FEATURES', 'virtualization
 IMAGE_INSTALL:append = " ${@bb.utils.contains('DISTRO_FEATURES', 'virtualization', 'packagegroup-unit-quadlets', '', d)}"
 IMAGE_INSTALL:append = " packagegroup-unit-ebpf"
 IMAGE_INSTALL:append = " packagegroup-unit-apps"
+IMAGE_INSTALL:append = " packagegroup-unit-networking"
+IMAGE_INSTALL:append = " packagegroup-unit-python"

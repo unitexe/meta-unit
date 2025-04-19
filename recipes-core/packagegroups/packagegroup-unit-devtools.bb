@@ -19,24 +19,12 @@ RDEPENDS:${PN}:append = " dtc"
 # Systemd debugging
 RDEPENDS:${PN}:append = " systemd-bootchart"
 
-# Networking
-RDEPENDS:${PN}:append = " curl"
-RDEPENDS:${PN}:append = " openssh"
-RDEPENDS:${PN}:append = " openssh-authorized-keys"
-RDEPENDS:${PN}:append = " python3-speedtest-cli"
-RDEPENDS:${PN}:append = " wireguard-tools"
-RDEPENDS:${PN}:append = " systemd-wgkeygen"
-
 # Utilities
 RDEPENDS:${PN}:append = " tree"
 
 # GPIO
 RDEPENDS:${PN}:append = " libgpiod"
 RDEPENDS:${PN}:append = " libgpiod-tools"
-RDEPENDS:${PN}:append = " python3-gpiod"
-
-# SPI
-RDEPENDS:${PN}:append = " python3-spidev"
 
 # UART
 RDEPENDS:${PN}:append = " minicom"
@@ -48,18 +36,5 @@ RDEPENDS:${PN}:append = " sysstat"
 # Performance testing
 RDEPENDS:${PN}:append = " stress-ng"
 
-# gRPC
-RDEPENDS:${PN}:append = " python3-grpcio"
-RDEPENDS:${PN}:append = " python3-grpcio-tools"
-RDEPENDS:${PN}:append = " python3-grpcio-reflection"
-RDEPENDS:${PN}:append = " python3-grpcio-health-checking"
-
-# SCPI
-RDEPENDS:${PN}:append = " python3-usbtmc"
-
 # I2C
 RDEPENDS:${PN}:append = " i2c-tools"
-RDEPENDS:${PN}:append = " python3-smbus"
-
-# Misc.
-RDEPENDS:${PN}:append = " python3-tomllib"
