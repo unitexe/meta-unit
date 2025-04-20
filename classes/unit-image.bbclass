@@ -1,6 +1,5 @@
 inherit core-image
 inherit image-buildinfo
-inherit unit-image-users
 
 IMAGE_INSTALL:append = " packagegroup-unit"
 IMAGE_INSTALL:append = " packagegroup-unit-devtools"
@@ -11,3 +10,4 @@ IMAGE_INSTALL:append = " packagegroup-unit-apps"
 IMAGE_INSTALL:append = " packagegroup-unit-networking"
 IMAGE_INSTALL:append = " packagegroup-unit-python"
 IMAGE_INSTALL:append = " packagegroup-unit-profiling"
+IMAGE_INSTALL:append = " packagegroup-unit-user-management"
