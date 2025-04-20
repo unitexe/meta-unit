@@ -18,6 +18,7 @@ RDEPENDS:${PN}:append = " dtc"
 
 # Systemd debugging
 RDEPENDS:${PN}:append = " systemd-bootchart"
+RDEPENDS:${PN}:append = " systemd-bootchart-conf"
 RDEPENDS:${PN}:append = " systemd-analyze"
 
 # Utilities
