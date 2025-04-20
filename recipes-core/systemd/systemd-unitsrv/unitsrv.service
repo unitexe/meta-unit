@@ -1,0 +1,10 @@
+[Unit]
+Description=Launch unit server
+After=network.target
+
+[Service]
+Restart=on-failure
+ExecStart=/usr/bin/unitsrv
+
+[Install]
+WantedBy=multi-user.target
