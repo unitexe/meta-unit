@@ -16,11 +16,6 @@ inherit packagegroup
 # Kernel debugging
 RDEPENDS:${PN}:append = " dtc"
 
-# Systemd debugging
-RDEPENDS:${PN}:append = " systemd-bootchart"
-RDEPENDS:${PN}:append = " systemd-bootchart-conf"
-RDEPENDS:${PN}:append = " systemd-analyze"
-
 # Utilities
 RDEPENDS:${PN}:append = " tree"
 
@@ -30,13 +25,6 @@ RDEPENDS:${PN}:append = " libgpiod-tools"
 
 # UART
 RDEPENDS:${PN}:append = " minicom"
-
-# Performance analysis
-RDEPENDS:${PN}:append = " procps"
-RDEPENDS:${PN}:append = " sysstat"
-
-# Performance testing
-RDEPENDS:${PN}:append = " stress-ng"
 
 # I2C
 RDEPENDS:${PN}:append = " i2c-tools"
