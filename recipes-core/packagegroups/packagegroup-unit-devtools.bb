@@ -18,6 +18,7 @@ RDEPENDS:${PN}:append = " dtc"
 
 # Utilities
 RDEPENDS:${PN}:append = " tree"
+RDEPENDS:${PN}:append = " jq"
 
 # GPIO
 RDEPENDS:${PN}:append = " libgpiod"
