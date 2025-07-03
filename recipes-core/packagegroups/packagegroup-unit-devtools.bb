@@ -30,3 +30,6 @@ RDEPENDS:${PN}:append = " minicom"
 
 # I2C
 RDEPENDS:${PN}:append = " i2c-tools"
+
+# U-boot
+RDEPENDS:${PN}:append = " u-boot-tools"
